@@ -1,4 +1,5 @@
 # wxcloudrun-wxcomponent
+# 
 [![GitHub license](https://img.shields.io/github/license/WeixinCloud/wxcloudrun-wxcomponent)](https://github.com/WeixinCloud/wxcloudrun-wxcomponent)
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/WeixinCloud/wxcloudrun-wxcomponent)
 
@@ -8,7 +9,7 @@
 此项目提供第三方平台的后端服务以及第三方平台管理工具。该镜像可一键部署到微信云托管，分钟级别即可完成第三方平台开发环境搭建以及第三方平台管理工具部署。详情参考官方文档：[服务商微管家介绍](https://developers.weixin.qq.com/doc/oplatform/Third-party_Platforms/2.0/product/management-tools.html)。
 
 ![index](https://res.wx.qq.com/op_res/BF2B0NQ2bKt-rJQL--cB3fUuCyllmnvJdFT57k786XuTE5UJQh4x8KjxiaGsg48qsqLtlP1kCZcr7E48DKq2xg)
-
+g
 #### 第三方平台推送消息
 微信第三方平台需要填写两个URL用于接受官方推送的消息，详情参考官方文档：[创建与配置第三方平台准备工作](https://developers.weixin.qq.com/doc/oplatform/Third-party_Platforms/2.0/operation/thirdparty/prepare.html)。
 - 授权事件URL: 本项目提供了接受官方推送并存入数据库的服务，对推送ticket、授权、解除授权的事件都做了相应处理。
