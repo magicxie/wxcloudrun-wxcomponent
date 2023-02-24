@@ -2,7 +2,6 @@
 .DS_Store
 .vscode
 
-client/node_modules
 client/.pnp
 client.pnp.js
 client/.idea
@@ -26,4 +25,3 @@ client/yarn-error.log*
 client/yarn.lock
 client/package-lock.json
 client/.vscode
-client/dist
