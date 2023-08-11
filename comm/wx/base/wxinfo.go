@@ -17,14 +17,17 @@ func init() {
 	envid = os.Getenv("CBR_ENV_ID")
 	host := os.Getenv("HOSTNAME")
 	appid = os.Getenv("WX_APPID")
+	service = os.Getenv("WX_SERVICE")
 	if len(appid) == 0 {
 		if i := strings.Index(envid, "-"); i != -1 {
 			appid = envid[:i]
 		}
 	}
 	log.Info("appid: " + appid)
-	if i := strings.Index(host, "-"); i != -1 {
-		service = host[:i]
+	if len(service) == 0 {
+	    if i := strings.Index(host, "-"); i != -1 {
+        		service = host[:i]
+        	}
 	}
 }
 
